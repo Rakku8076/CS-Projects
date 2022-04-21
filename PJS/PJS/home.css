@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .container {
+  width: 100vw;
+} */
+.title-box {
+  background-color: #333;
+  color: white;
+  border: 3px solid white;
+}
+
+h1 {
+  display: inline-block;
+  padding: 1rem;
+}
+
+.nav {
+  float: right;
+  margin: 25px 10px;
+}
+
+a {
+  margin: 10px;
+  font-size: 1.25rem;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* img {
+  width: 100%;
+  height: 80vh;
+  display: block;
+} */
+
+.search-box {
+  position: relative;
+  width: 100%;
+  height: 88vh;
+  background: url("./court1.jpg") center/cover no-repeat;
+}
+
+/* input[type="search"] {
+  display: block;
+  background: rgba(40, 114, 108);
+  width: 70%;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: 1.25rem;
+  transform: translate(-50%, -50%);
+} */
+
+.description-box {
+  width: 30%;
+  margin: 5% 1.5%;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 10px;
+  border: 3px solid #ffffff;
+  background: #333;
+  color: white;
+  border-radius: 10px;
+}
+
+.description-box h1 {
+  border-bottom: 2px solid white;
+  margin-bottom: 15px;
+}
+
+.description-container {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #d3d3d3;
+  padding: 20px;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+input[type="search"] {
+  cursor: auto;
+  width: 68%;
+  display: inline-block;
+  background-color: white;
+  color: white;
+  font-size: 1.2rem;
+  margin-left: 15%;
+  margin-right: 0;
+  padding: 0.76rem;
+  border-radius: 5px;
+}
+
+.search-icon {
+  background-color: #333;
+  padding: 15px;
+  color: white;
+  outline: #333 3px solid;
+  border-radius: 5px;
+}
+
+.footer {
+  border-top: 3px solid white;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 1.25rem;
+  height: 14vh;
+  background-color: #333;
+  color: white;
+}
+
+.footer p {
+  margin-bottom: 15px;
+}
+
+.footer a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.foot-container {
+  display: inline-block;
+  width: 30vw;
+  box-sizing: border-box;
+}
+
+.latest {
+  width: 30%;
+  margin: 5% 1.5%;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 10px;
+  border: 3px solid #ffffff;
+  background: #333;
+  color: white;
+  border-radius: 10px;
+}
+
+.latest-case-box {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #d3d3d3;
+  padding: 20px;
+}
+
+#latest-updates {
+  text-align: center;
+  color: white;
+  background-color: #333;
+  width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+  .latest {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .description-box {
+    width: 100%;
+  }
+  .nav {
+    display: block;
+    clear: right;
+    margin: 0;
+  }
+
+  .title-box h1 {
+    display: block;
+  }
+}

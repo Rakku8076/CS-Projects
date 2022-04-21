@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+}
+
+.container {
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+.title-box {
+  height: 7vh;
+  color: white;
+  font-size: 0.8rem;
+  padding: 10px 5px;
+  border-bottom: 2px solid white;
+}
+
+.title-box h1 {
+  display: inline-block;
+}
+
+.title-box a {
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  top: 18px;
+  font-size: 1rem;
+  right: 10px;
+  text-transform: uppercase;
+}
+
+img {
+  display: block;
+  background-size: cover;
+  width: 100vw;
+  height: calc(100vh - 20vh);
+}
+
+.signin-form,
+.signup-form {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  margin: 180px auto;
+  text-align: center;
+  padding: 2rem;
+  padding: 2.5rem;
+  border-radius: 10px;
+}
+
+.signin-form h2,
+.signup-form h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+input[type="name"],
+input[type="email"],
+input[type="password"] {
+  padding: 5px;
+  color: white;
+}
+
+.signin-form input,
+.signup-form input {
+  width: 25rem;
+  display: block;
+  height: 3rem;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem auto;
+  background-color: transparent;
+  border: 0.1rem solid #fff;
+  border-radius: 5rem;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  outline: none;
+}
+
+.signin-form input[type="submit"],
+.signup-form input[type="submit"] {
+  background-color: #fff;
+  color: rgba(40, 114, 108);
+  font-weight: 900;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.signin-form input::placeholder,
+.signup-form input::placeholder {
+  color: #fff;
+  font-weight: 300;
+}
+
+.footer {
+  border-top: 3px solid white;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 1.25rem;
+  height: 10vh;
+  background-color: #333;
+  color: white;
+}
+
+.footer p {
+  margin-bottom: 15px;
+}
+
+.footer a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.foot-container {
+  display: inline-block;
+  width: 30vw;
+  box-sizing: border-box;
+}
